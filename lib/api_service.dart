@@ -9,7 +9,7 @@ import 'models.dart';
 class ApiService {
   // 10.0.2.2 maps to host localhost in the Android emulator.
   // Can be changed to http://localhost:3000 for Desktop, Web, or iOS simulator.
-  static const String defaultBaseUrl = 'http://10.0.2.2:3000';
+  static const String defaultBaseUrl = 'http://localhost:3000';
 
   final Dio _dio;
 
